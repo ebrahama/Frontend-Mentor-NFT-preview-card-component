@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+
+    --Very-dark-blue-m: hsl(217, 54%, 11%);
+    --Very-dark-blue-c: hsl(216, 50%, 16%);
+    --Very-dark-blue-l: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    background:var(--Very-dark-blue-m);
+}
+p{
+    font-size: 18px;
+    color: var(--Soft-blue);
+    text-align: start;
+    font-weight: 300;
+    margin-bottom: 18px;
+}
+h1{
+    text-align: start;
+    color: var(--White);
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+.card{
+    max-width: 340px;
+    background: var(--Very-dark-blue-c);
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 10% auto;
+    position: relative;
+}
+.top img{    
+    width: 85%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card .text{
+  width: 87%;
+}
+
+.card .mid{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 22px;
+    margin-bottom: 20px;
+}
+.ml{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.mr{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+.ml p{
+    color: var(--Cyan);
+
+}
+.mr p{
+    color: var(--Soft-blue);
+}
+hr{
+    width: 86%;
+    color: var(--Very-dark-blue-l);
+}
+.bot{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    padding-left: 0px;
+}
+.bot img{
+  width: 10%;
+  border: 1.3px solid var(--White);
+  border-radius: 50%; 
+}
+.bot p{
+padding:0px 10px;
+}
+.bot p span{
+   color: var(--White);
+}
+
+.bot p span:hover{
+   color: var(--Cyan);
+   cursor: pointer;
+   transition: 0.50s;
+}
+.text h1:hover{
+    color: var(--Cyan);
+    cursor: pointer;
+    transition: 0.50s;
+ }
+ .top img:hover{
+    cursor: pointer;
+ }
